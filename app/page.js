@@ -24,7 +24,6 @@ setImage(file);
 setPreview(URL.createObjectURL(file));
 setResult("");
 setError("");
-```
 
 }
 
@@ -69,13 +68,11 @@ try {
 } finally {
   setLoading(false);
 }
-```
 
 }
 
 return ( <main className="page"> <nav className="navbar"> <a className="brand" href="#">🧵 ArtisanAI</a> <span className="nav-tag">AI for Local Artisans</span> </nav>
 
-```
   <section className="hero">
     <div className="badge">✦ YOUR CRAFT, OUR AI</div>
     <h1>
@@ -188,7 +185,7 @@ return ( <main className="page"> <nav className="navbar"> <a className="brand" h
     <span>Empowering local craftsmanship with AI ✦</span>
   </footer>
 </main>
-```
+
 
 );
 }
