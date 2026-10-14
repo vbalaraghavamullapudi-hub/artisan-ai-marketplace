@@ -48,7 +48,7 @@ Include:
 3. Visible colors, patterns, shapes, and design details.
 4. Possible uses and occasions.
 5. Search keywords.
-6. 6. Estimate a product-specific price range in Indian rupees (₹).
+6. Estimate a product-specific price range in Indian rupees (₹).
    Consider the visible product type, approximate size, apparent
    materials, design complexity, and comparable Indian-market
    products. Do not reuse a fixed price range across products.
