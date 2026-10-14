@@ -14,7 +14,7 @@ function handleImage(e) {
 const file = e.target.files?.[0];
 if (!file) return;
 
-```
+
 if (!file.type.startsWith("image/")) {
   setError("Please upload an image file.");
   return;
@@ -34,7 +34,6 @@ setError("Please upload a photo of your handmade product first.");
 return;
 }
 
-```
 setLoading(true);
 setError("");
 setResult("");
