@@ -185,7 +185,5 @@ return ( <main className="page"> <nav className="navbar"> <a className="brand" h
     <span>Empowering local craftsmanship with AI ✦</span>
   </footer>
 </main>
-
-
 );
 }
