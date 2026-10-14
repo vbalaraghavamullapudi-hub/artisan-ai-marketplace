@@ -7,7 +7,6 @@ export async function POST(request) {
 try {
 const apiKey = process.env.GEMINI_API_KEY;
 
-```
 if (!apiKey) {
   return NextResponse.json(
     { error: "Gemini API key is missing. Configure GEMINI_API_KEY in Vercel Environment Variables." },
@@ -27,7 +26,6 @@ if (!image || !mimeType || !language) {
 const ai = new GoogleGenAI({ apiKey });
 
 const prompt = `
-```
 
 You are ArtisanAI, an assistant that helps local Indian artisans sell handmade products online.
 
